@@ -3,19 +3,20 @@
     "layer": "top", // Waybar at top layer
     "opacity": "0.8",
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 15, // Waybar height (to be removed for auto height)
+    "height": 13, // Waybar height (to be removed for auto height)
     // "width": 1280, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "custom/media"
-    ],
-    "modules-center": [
 	"hyprland/workspaces"
     ],
+    "modules-center": [
+        "custom/media"
+    ],
     "modules-right": [
-        "CPU",
+        "cpu",
         "memory",
+	"disk",
         "temperature",
         "clock"
     ],
@@ -30,7 +31,15 @@
     },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": true
+    },
+    "disk": {
+        "format": "{percentage_free}% 󱛟",
+	"tooltip": true
+    },
+    "memory": {
+        "format": "{}% ",
+	"tooltip": true
     },
     "hyprland/workspaces": {
 	"format": "{icon}",
@@ -41,16 +50,13 @@
 		"DP-2": [1,2,3,4]
 	}
     },
-    "memory": {
-        "format": "{}% "
-    },
    "custom/media": {
         "format": "{icon} {text}",
         "return-type": "json",
-        "max-length": 40,
         "format-icons": {
-            "spotify": "",
-            "default": ""
+            "spotify": "",
+	    "ncspot": "",
+            "default": ""
         },
         "escape": true,
         "exec": "python $HOME/.config/waybar/scripts/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
