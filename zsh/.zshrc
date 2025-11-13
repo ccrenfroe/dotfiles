@@ -12,7 +12,7 @@ alias install='yay -Syu'
 alias pkglist='yay -Qe > pkglist.txt' # pacman list (explicitly installed packages)
 alias pkgrestore='yay -S --needed - < pkglist.txt'
 alias search='yay -Ss'
-alias update='sudo reflector --country "United States" --age 12 --sort rate --protocol https --save /etc/pacman.d/mirrorlist && yay -Syyu'
+alias update='sudo reflector --country "United States" --age 12 --sort rate --protocol https --save /etc/pacman.d/mirrorlist && yay -Syyu && pkglist > ~/dotfiles/pkglist/pkglist.txt
 
 # Programs
 alias ff=firefox; alias firefox='firefox & disown'
