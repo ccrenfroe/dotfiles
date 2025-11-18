@@ -22,8 +22,9 @@ alias neway='waybar & disown'
 alias reway='killall -9 waybar && neway'
 
 #Configs
-alias zrc='vim ~/.zshrc'
+alias vim='nvim'
+alias zrc='nvim ~/.zshrc'
 alias zs='source ~/.zshrc'
-alias hyp='vim ~/.config/hypr/hyprland.conf'
-alias way='vim ~/.config/waybar/config.jsonc'
-alias ways='vim ~/.config/waybar/style.css'
+alias hyp='nvim ~/.config/hypr/hyprland.conf'
+alias way='nvim ~/.config/waybar/config.jsonc'
+alias ways='nvim ~/.config/waybar/style.css'

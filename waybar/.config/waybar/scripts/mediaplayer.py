@@ -24,6 +24,7 @@ def signal_handler(sig, frame):
 
 class PlayerManager:
     def __init__(self, selected_player=None, excluded_player=[]):
+        self.clear_output()
         self.manager = Playerctl.PlayerManager()
         self.loop = GLib.MainLoop()
         self.manager.connect(
@@ -75,7 +76,8 @@ class PlayerManager:
         sys.stdout.flush()
 
     def clear_output(self):
-        sys.stdout.write("\n")
+        output = {"text": "Momento Mori", "class": "none", "alt": "none"}
+        sys.stdout.write(json.dumps(output) + "\n")
         sys.stdout.flush()
 
     def on_playback_status_changed(self, player, status, _=None):
@@ -112,9 +114,9 @@ class PlayerManager:
         logger.debug(f"Metadata changed for player {player.props.player_name}")
         player_name = player.props.player_name
         artist = player.get_artist()
-        artist = artist.replace("&", "&amp;")
+        #artist = artist.replace("&", "&amp;")
         title = player.get_title()
-        title = title.replace("&", "&amp;")
+        #title = title.replace("&", "&amp;")
 
         track_info = ""
         if player_name == "spotify" and "mpris:trackid" in metadata.keys() and ":ad:" in player.props.metadata["mpris:trackid"]:
@@ -181,7 +183,6 @@ def main():
     # Logging is set by default to WARN and higher.
     # With every occurrence of -v it's lowered by one
     logger.setLevel(max((3 - arguments.verbose) * 10, 0))
-
     logger.info("Creating player manager")
     if arguments.player:
         logger.info(f"Filtering for player: {arguments.player}")

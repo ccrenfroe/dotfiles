@@ -5,14 +5,10 @@
 }
 
 window#waybar {
-    background-color: rgba(43, 48, 59, 0.5);
-    color: #ffffff;
-    transition-property: background-color;
-    transition-duration: .5s;
+   background-color: rgba(40, 52, 87, 0);
 }
 
 window#waybar.hidden {
-    opacity: 0.2;
 }
 
 /*
@@ -21,15 +17,15 @@ window#waybar.empty {
 }
 window#waybar.solo {
     background-color: #FFFFFF;
-}
+
 */
 
 window#waybar.termite {
     background-color: #3F3F3F;
 }
 
-window#waybar.chromium {
-    background-color: #000000;
+window#waybar.firefox{
+    background-color: red ;
     border: none;
 }
 
@@ -76,15 +72,7 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
-#clock,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#wireplumber,
-#custom-media,
-#tray,
-#mpd {
+.module {
     padding: 0 10px;
     color: #ffffff;
 }
@@ -94,6 +82,23 @@ button:hover {
     margin: 0px;
 }
 
+box.modules-left,
+box.modules-center,
+box.modules-right {
+    background-color: rgba(26, 27, 38, .90);
+    border-bottom: 1px solid #405287;
+}
+box.modules-left {
+    border-bottom-right-radius: 5px;
+}
+box.modules-center {
+    padding: 10 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+box.modules-right { 
+    border-bottom-left-radius: 5px;
+}
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
@@ -164,3 +169,10 @@ label:focus {
     font-weight: bold;
     background: #5e81ac;
 }
+
+
+/* Optional: tooltip border/background around the calendar itself */
+tooltip {
+    background-color: rgba(26, 27, 38, .90);
+}
+

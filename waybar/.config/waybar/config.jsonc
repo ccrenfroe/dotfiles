@@ -17,7 +17,6 @@
         "cpu",
         "memory",
 	"disk",
-        "temperature",
         "clock"
     ],
     "tray": {
@@ -34,7 +33,7 @@
         "tooltip": true
     },
     "disk": {
-        "format": "{percentage_free}% 󱛟",
+        "format": "{percentage_free}% ",
 	"tooltip": true
     },
     "memory": {
