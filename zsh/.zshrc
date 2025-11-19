@@ -1,9 +1,10 @@
 #oh-my-zsh
 export ZSH='/usr/share/oh-my-zsh'
-plugins=(git branch sudo)
+plugins=(git sudo)
 
 zstyle ':omz:update' mode auto
-ZSH_THEME='random'
+ZSH_CUSTOM='/home/stoic/.config/ohmyzsh/'
+ZSH_THEME='stokyo'
 
 source $ZSH/oh-my-zsh.sh
 
