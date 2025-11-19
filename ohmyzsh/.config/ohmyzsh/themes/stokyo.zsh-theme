@@ -1,4 +1,4 @@
-PROMPT=' %F{red}%M%f%F{green}::%f%F{blue}%d%f$(in_git && echo "::" || echo "\n ")$(git_prompt_info) '
+PROMPT=' %F{red}%M%f%F{yellow}::%f%F{blue}%d%f$(in_git && echo "%F{yellow}::%f" || echo "\n ")$(git_prompt_info) '
 RPROMPT='%F{255}%*%f'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="$FG[078]$FG[075]($FG[078]"

@@ -18,10 +18,11 @@ alias update='sudo reflector --country "United States" --age 12 --sort rate --pr
 
 # Programs
 alias ff=firefox; alias firefox='firefox & disown'
-alias spot='ncspot'
+alias spot='spotify_player'
 alias spoty='spotify & disown'
 alias neway='waybar & disown'
 alias reway='killall -9 waybar && neway'
+alias obsidian='obsidian & disown'
 
 #Configs
 alias vim='nvim'

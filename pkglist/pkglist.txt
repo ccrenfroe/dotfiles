@@ -5,9 +5,10 @@ bitwarden-cli 2025.11.0-1
 bluez 5.84-2
 bluez-deprecated-tools 5.84-2
 bluez-utils 5.84-2
+discord 1:0.0.115-1
 dosfstools 4.2-5
 efibootmgr 18-3
-firefox 145.0-2
+firefox 145.0.1-1
 git 2.52.0-1
 grub 2:2.14rc1-2
 hyprland 0.52.1-3
