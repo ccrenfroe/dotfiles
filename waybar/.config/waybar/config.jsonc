@@ -23,11 +23,6 @@
         "icon-size": 10,
         "spacing": 10
     },
-    "clock": {
-        "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
-    },
     "cpu": {
         "format": "{usage}% ",
         "tooltip": true
@@ -39,6 +34,12 @@
     "memory": {
         "format": "{}% ",
 	"tooltip": true
+    },
+    "clock": {
+        "timezone": "America/New_York",
+	"format": "{:%I:%M %p}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
     },
     "hyprland/workspaces": {
 	"format": "{icon}",

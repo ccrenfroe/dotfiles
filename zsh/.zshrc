@@ -1,8 +1,9 @@
 #oh-my-zsh
 export ZSH='/usr/share/oh-my-zsh'
-plugins=(git sudo)
+plugins=(git branch sudo)
 
 zstyle ':omz:update' mode auto
+ZSH_THEME='random'
 
 source $ZSH/oh-my-zsh.sh
 
