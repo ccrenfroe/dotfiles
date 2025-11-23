@@ -1,10 +1,11 @@
 // -*- mode: jsonc -*-
 {
+    "name": "main",
+    "output": "DP-1",
     "layer": "top", // Waybar at top layer
     "opacity": "0.8",
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 13, // Waybar height (to be removed for auto height)
-    // "width": 1280, // Waybar width
+    "width": 1740, // Waybar width
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
@@ -44,11 +45,12 @@
     "hyprland/workspaces": {
 	"format": "{icon}",
 	"format-icons": {
+	"active": "",
+	"default": ""
 	},
-	"persistent-workspaces": {
-		"DP-1": [5,6,7,8],
-		"DP-2": [1,2,3,4]
-	}
+	"all-outputs": true,
+        "active-only": false,
+	"persistent-only": true // use this to read the rules from hyprland.conf
     },
    "custom/media": {
         "format": "{icon} {text}",
@@ -59,18 +61,6 @@
             "default": ""
         },
         "escape": true,
-        "exec": "python $HOME/.config/waybar/scripts/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+        "exec": "python $HOME/.config/waybar/scripts/mediaplayer.py --exclude firefox 2> /dev/null" // Filter player based on name
     }
 }
-
-
-//    "network": {
-//        // "interface": "wlp2*", // (Optional) To force the use of this interface
-//        "format-wifi": "{essid} ({signalStrength}%) ",
-//        "format-ethernet": "{ipaddr}/{cidr} ",
-//        "tooltip-format": "{ifname} via {gwaddr} ",
-//        "format-linked": "{ifname} (No IP) ",
-//        "format-disconnected": "Disconnected ⚠",
-//        "format-alt": "{ifname}: {ipaddr}/{cidr}"
-//    },
- 

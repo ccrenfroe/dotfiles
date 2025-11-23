@@ -1,0 +1,58 @@
+2025-11-20 19:49:11,287 __main__ INFO:186 Creating player manager
+2025-11-20 19:49:11,295 __main__ INFO:57 Initialize new player: firefox
+2025-11-20 19:49:11,296 __main__ DEBUG:114 Metadata changed for player firefox
+2025-11-20 19:49:11,296 __main__ DEBUG:89 Getting first playing player from 1 players
+2025-11-20 19:49:11,296 __main__ DEBUG:69 Writing output: Tomic - Using REAL Roman Tactics Against REAL Players in Total War Rome 2
+2025-11-20 19:49:11,296 __main__ INFO:57 Initialize new player: spotify_player
+2025-11-20 19:49:11,297 __main__ DEBUG:114 Metadata changed for player spotify_player
+2025-11-20 19:49:11,297 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:11,297 __main__ DEBUG:69 Writing output: Balu Brigada - Backseat
+2025-11-20 19:49:11,297 __main__ INFO:53 Starting main loop
+2025-11-20 19:49:13,404 __main__ INFO:154 Player spotify_player has vanished
+2025-11-20 19:49:13,404 __main__ DEBUG:103 Showing most important player
+2025-11-20 19:49:13,404 __main__ DEBUG:89 Getting first playing player from 1 players
+2025-11-20 19:49:13,404 __main__ DEBUG:114 Metadata changed for player firefox
+2025-11-20 19:49:13,404 __main__ DEBUG:89 Getting first playing player from 1 players
+2025-11-20 19:49:13,404 __main__ DEBUG:69 Writing output: Tomic - Using REAL Roman Tactics Against REAL Players in Total War Rome 2
+2025-11-20 19:49:17,603 __main__ INFO:142 Player has appeared: spotify
+2025-11-20 19:49:17,603 __main__ INFO:57 Initialize new player: spotify
+2025-11-20 19:49:17,603 __main__ DEBUG:114 Metadata changed for player spotify
+2025-11-20 19:49:17,604 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:17,604 __main__ DEBUG:69 Writing output:  - 
+2025-11-20 19:49:17,631 __main__ DEBUG:114 Metadata changed for player spotify
+2025-11-20 19:49:17,631 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:17,631 __main__ DEBUG:69 Writing output: Balu Brigada - Backseat
+2025-11-20 19:49:17,633 __main__ DEBUG:84 Playback status changed for player spotify: 1
+2025-11-20 19:49:17,633 __main__ DEBUG:114 Metadata changed for player spotify
+2025-11-20 19:49:17,633 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:17,633 __main__ DEBUG:69 Writing output: Balu Brigada - Backseat
+2025-11-20 19:49:20,457 __main__ DEBUG:84 Playback status changed for player spotify: 0
+2025-11-20 19:49:20,457 __main__ DEBUG:114 Metadata changed for player spotify
+2025-11-20 19:49:20,457 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:20,457 __main__ DEBUG:69 Writing output: Balu Brigada - Backseat
+2025-11-20 19:49:23,989 __main__ INFO:154 Player spotify has vanished
+2025-11-20 19:49:23,990 __main__ DEBUG:103 Showing most important player
+2025-11-20 19:49:23,990 __main__ DEBUG:89 Getting first playing player from 1 players
+2025-11-20 19:49:23,990 __main__ DEBUG:114 Metadata changed for player firefox
+2025-11-20 19:49:23,990 __main__ DEBUG:89 Getting first playing player from 1 players
+2025-11-20 19:49:23,990 __main__ DEBUG:69 Writing output: Tomic - Using REAL Roman Tactics Against REAL Players in Total War Rome 2
+2025-11-20 19:49:25,379 __main__ DEBUG:84 Playback status changed for player firefox: 0
+2025-11-20 19:49:25,379 __main__ DEBUG:114 Metadata changed for player firefox
+2025-11-20 19:49:25,379 __main__ DEBUG:89 Getting first playing player from 1 players
+2025-11-20 19:49:25,379 __main__ DEBUG:69 Writing output: Tomic - Using REAL Roman Tactics Against REAL Players in Total War Rome 2
+2025-11-20 19:49:27,490 __main__ DEBUG:114 Metadata changed for player firefox
+2025-11-20 19:49:27,490 __main__ DEBUG:89 Getting first playing player from 1 players
+2025-11-20 19:49:27,490 __main__ DEBUG:69 Writing output: Tomic - Using REAL Roman Tactics Against REAL Players in Total War Rome 2
+2025-11-20 19:49:29,220 __main__ INFO:142 Player has appeared: spotify_player
+2025-11-20 19:49:29,220 __main__ INFO:57 Initialize new player: spotify_player
+2025-11-20 19:49:29,271 __main__ DEBUG:114 Metadata changed for player spotify_player
+2025-11-20 19:49:29,271 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:29,271 __main__ DEBUG:139 Other player firefox is playing, skipping
+2025-11-20 19:49:33,305 __main__ DEBUG:114 Metadata changed for player spotify_player
+2025-11-20 19:49:33,305 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:33,305 __main__ DEBUG:139 Other player firefox is playing, skipping
+2025-11-20 19:49:36,580 __main__ DEBUG:84 Playback status changed for player firefox: 1
+2025-11-20 19:49:36,580 __main__ DEBUG:114 Metadata changed for player firefox
+2025-11-20 19:49:36,580 __main__ DEBUG:89 Getting first playing player from 2 players
+2025-11-20 19:49:36,580 __main__ DEBUG:139 Other player spotify_player is playing, skipping
+2025-11-20 19:49:38,248 __main__ INFO:18 Received signal to stop, exiting
