@@ -46,7 +46,9 @@
 	"format": "{icon}",
 	"format-icons": {
 	"active": "",
-	"default": ""
+	"default": "",
+	"visible": "",
+	"5": "|"
 	},
 	"all-outputs": true,
         "active-only": false,
