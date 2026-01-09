@@ -11,6 +11,7 @@ source $ZSH/oh-my-zsh.sh
 #yay
 alias inspect='yay -Si'
 alias install='yay -Syu'
+alias uninstall='yay -Rs'
 alias pkglist='yay -Qe > pkglist.txt' # pacman list (explicitly installed packages)
 alias pkgrestore='yay -S --needed - < pkglist.txt'
 alias search='yay -Ss'
